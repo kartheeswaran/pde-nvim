@@ -33,3 +33,7 @@ vim.keymap.set("n", "<leader>kc", function()
     search_file = selected_word,
   })
 end)
+
+vim.keymap.set("n", "<leader>km", function()
+  tel_builtin.lsp_document_symbols({})
+end)
